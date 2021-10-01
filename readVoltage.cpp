@@ -12,7 +12,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   readVal=analogRead(analogPin);
-  V2=(5./1023. * readVal);
+  V2=((5./1023.) * readVal);
   Serial.println(V2);
   delay(second);
 }
