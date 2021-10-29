@@ -13,8 +13,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(dirPin1, LOW);
-  digitalWrite(dirPin2, HIGH);
+  digitalWrite(dirPin1, HIGH);
+  digitalWrite(dirPin2, LOW);
   analogWrite(speedPin, mSpeed);
 
 }
