@@ -2,7 +2,7 @@ int yellowLED=9;
 int incomingA0=A0;
 int potVal;
 int second=1000;
-float volts;
+float volts
 
 void setup() {
   // put your setup code here, to run once:
