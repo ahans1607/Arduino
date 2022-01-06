@@ -44,6 +44,6 @@ void loop() {
   thermo.print(" Degrees F");
 
 
-  delay(2000);
+  delay(500);
   
 }
