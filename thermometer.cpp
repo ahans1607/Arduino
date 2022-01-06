@@ -36,9 +36,6 @@ void loop() {
   tempC = HT.readTemperature();
   tempF = HT.readTemperature(true);
 
-  Serial.print("Humidity is ");
-  Serial.print(humidity);
-
   thermo.setCursor(0,0);
   thermo.print("Temperature is");
 
@@ -46,8 +43,6 @@ void loop() {
   thermo.print(tempF);
   thermo.print(" Degrees F");
 
-  Serial.print(" TempF is ");
-  Serial.println(tempF);
 
   delay(2000);
   
