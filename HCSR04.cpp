@@ -21,5 +21,4 @@ void loop() {
   delay(25);
 
   Serial.println(pingTravelTime);
-
 }
