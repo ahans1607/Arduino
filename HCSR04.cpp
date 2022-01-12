@@ -19,6 +19,5 @@ void loop() {
   digitalWrite(triggerPin, LOW);
   pingTravelTime = pulseIn(echoPin, HIGH);
   delay(25);
-
   Serial.println(pingTravelTime);
 }
